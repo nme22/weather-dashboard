@@ -16,21 +16,37 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: salmon;
+    text-align: center;
+    margin-right: 50p;
+}
+
 nav input {
     border-radius: 5px;
     border-style: solid;
 }
 
 main {
-    display: flex;
+    display: grid;
 }
 
 .container {
     background-color: salmon;
     border-color: teal;
+    height: 40%;
+    width: 40%;
+    margin-bottom: 20px;
+    padding: 50px;
+    border-style: solid;
+}
+
+#weeklyForecast {
+    background-color: salmon;
+    border-color: teal;
     height: 70%;
     width: 70%;
-    margin: 50px;
+    margin-bottom: 50px;
     padding: 50px;
     border-style: solid;
 }
