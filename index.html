@@ -7,7 +7,7 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="./assets/style.css">
 <title>Title</title>
 </head>
 <body>
@@ -16,7 +16,8 @@
     </div>
 
     <nav>
-      <input type="text" name="search" placeholder="location">
+      <input class="location" type="text" name="where" placeholder="Location">
+      <button type="button" id="search">Search</button>
     </nav>
 
     <main>
@@ -24,8 +25,10 @@
 
         </div>
 
+        <br>
+
         <div id="weeklyForecast" class="container">
-            
+
         </div>
     </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
