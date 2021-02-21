@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: rgb(201, 194, 194);
     margin: 10px;
     padding: 10px;
     width: 100vw;
@@ -8,45 +8,11 @@ body {
     max-height: 100%;
 }
 
-h1 {
-    color: salmon;
-    background-color: teal;
-    border-style: solid;
-    border-color: white;
-    text-align: center;
-}
-
-h2 {
-    color: salmon;
-    text-align: center;
-    margin-right: 50p;
-}
-
-nav input {
-    border-radius: 5px;
-    border-style: solid;
-}
-
-main {
-    display: grid;
-}
-
 .container {
-    background-color: salmon;
-    border-color: teal;
-    height: 40%;
-    width: 40%;
+    background-color: white;
+    height: 50%;
+    width: 100%;
     margin-bottom: 20px;
-    padding: 50px;
-    border-style: solid;
-}
-
-#weeklyForecast {
-    background-color: salmon;
-    border-color: teal;
-    height: 70%;
-    width: 70%;
-    margin-bottom: 50px;
     padding: 50px;
     border-style: solid;
 }
